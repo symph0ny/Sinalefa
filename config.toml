@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://symph0ny.github.io/Sinalefa/'
 languageCode = 'es-419'
 title = 'Sinalefa'
 PygmentsCodeFences = true
