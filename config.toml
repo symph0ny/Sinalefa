@@ -1,24 +1,25 @@
 baseURL = '/'
-languageCode = 'en'
-title = 'Hugo Cat'
+languageCode = 'es-419'
+title = 'Sinalefa'
 PygmentsCodeFences = true
-PygmentsStyle = "solarized-dark256"
+defaultcontentlanguage = 'es'
+copyright = "© Symph0ny"
+PygmentsStyle = "monokai"
 pluralizelisttitles = "false"
-paginate  = 15
+paginate = 7
 disableHugoGeneratorInject = false
 enableEmoji = true
-theme = "hugo-cat"
+theme = "archie"
 
 [params]
-ava = "/img/cat.png"
-owner ="Red Kitty"
-talk = "Hello guys &#128075; im cool kitty..."
-blogSection = ["blog"]
-description = "Cat"
-favicon = "/img/logo.svg"
+	mode = "toggle" # Opciones: dark, light, auto
+	useCDN = false
+	subtitle = "¡Hola!, soy Symph0ny. Este es mi blog, Sinalefa."
+	mathjax = true
+	katex = false
 
 [[menu.main]]
-name = "Home"
+name = "Inicio"
 url = "/"
 weight = 1
 
@@ -28,19 +29,16 @@ url = "/blog/"
 weight = 2
 
 [[menu.main]]
-name = "Contact"
-url = "/contact/"
+name = "Sobre mí"
+url = "/about/"
 weight = 3
 
 [[menu.main]]
-name = "About"
-url = "/about/"
+name = "Etiquetas"
+url = "/tags/"
 weight = 4
-
-
 
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.111.3"
-  
+    min = "0.111.3"  
