@@ -1,4 +1,4 @@
-baseURL = 'https://symph0ny.github.io/Sinalefa/'
+baseURL = 'https://symph0ny.github.io/Sinalefa'
 languageCode = 'es-419'
 title = 'Sinalefa'
 PygmentsCodeFences = true
@@ -18,25 +18,12 @@ theme = "archie"
 	mathjax = true
 	katex = false
 
-[[menu.main]]
-name = "Inicio"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Blog"
-url = "/blog/"
-weight = 2
-
-[[menu.main]]
-name = "Sobre mí"
-url = "/about/"
-weight = 3
-
-[[menu.main]]
-name = "Etiquetas"
-url = "/tags/"
-weight = 4
+menu.items = [
+    {name = "Inicio", weight = 1, url = "$BASEURL/"},
+		{name = "Blog", weight = 2, url = "$BASEURL/blog"},
+		{name = "Sobre mí", weight = 3, url = "$BASEURL/about"},
+    {name = "Etiquetas", weight = 4, url = "$BASEURL/tags"},
+]
 
 [module]
   [module.hugoVersion]
