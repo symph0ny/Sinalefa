@@ -12,7 +12,7 @@ enableEmoji = true
 theme = "archie"
 
 [params]
-	mode = "toggle" # Opciones: dark, light, auto
+	mode = "toggle" # Opciones: dark, light, auto, toggle
 	useCDN = false
 	subtitle = "¡Hola!, soy Symph0ny. Este es mi blog, Sinalefa."
 	mathjax = true
