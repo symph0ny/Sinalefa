@@ -18,12 +18,26 @@ theme = "archie"
 	mathjax = true
 	katex = false
 
-menu.items = [
-    {name = "Inicio", weight = 1, url = "$BASEURL/"},
-		{name = "Blog", weight = 2, url = "$BASEURL/blog"},
-		{name = "Sobre mí", weight = 3, url = "$BASEURL/about"},
-    {name = "Etiquetas", weight = 4, url = "$BASEURL/tags"},
-]
+
+[[menu.main]]
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "$BASEURL/blog"
+weight = 2
+
+[[menu.main]]
+name = "Sobre mí"
+url = "$BASEURL/about"
+weight = 3
+
+[[menu.main]]
+name = "Etiquetas"
+url = "$BASEURL/tags"
+weight = 4
 
 [module]
   [module.hugoVersion]
