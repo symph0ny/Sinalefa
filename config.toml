@@ -26,17 +26,17 @@ weight = 1
 
 [[menu.main]]
 name = "Blog"
-url = "$BASEURL/blog"
+url = "/blog"
 weight = 2
 
 [[menu.main]]
 name = "Sobre mí"
-url = "$BASEURL/about"
+url = "/about"
 weight = 3
 
 [[menu.main]]
 name = "Etiquetas"
-url = "$BASEURL/tags"
+url = "/tags"
 weight = 4
 
 [module]
